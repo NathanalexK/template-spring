@@ -1,0 +1,33 @@
+:root {
+    --primary: '#007aff';
+}
+
+thead {
+    /*background-color: rgba(217, 217, 217, 0.38);*/
+    background-color: rgba(255, 243, 227, 0.68);
+    color: white;
+}
+
+thead tr td {
+    /*color: #cd7607 !important;*/
+    text-transform: capitalize;
+    /*font-weight: bold;*/
+}
+
+.btn-warning{
+    background-color: #007193 !important;
+    border-color: #007193;
+    box-shadow: unset;
+
+}
+
+.btn-warning:hover {
+    background-color: #03536c !important;
+    border-color: #03536c !important;
+    outline: unset;
+    box-shadow: unset;
+}
+
+.btn:hover {
+    box-shadow: unset;
+}
